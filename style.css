@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(218, 218, 218);
+    margin-left:5%;
+    margin-right: 5%;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+header {
+    width: 100%;
+    height: 10%;
+}
+* {
+    border: 2px solid rgb(0, 0, 0);
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+model-viewer {
+    width: 500px;
+    height: 500px;
+}
+.burger {
+    position: absolute;
+    left: 96%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 40%;
+    height: 100%;
+}
+.right {
+    width: 60%;
+    height: 100%;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+p {
+    font-size: 20px;
+}
+main {
+    margin-top: 5%;}
+
+.burgermeiser {
+    width: 100px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    position: relative;
+    top: 0;
+
+}
+
+.burgermeiser2{
+    width: 100px;
+    height: 200px;
+    background-color: bisque;
+    display: none;
+    transition: 1s;
+    position: relative;
+    top: 0;
+}
+
+.shishka {
+    width: 50px;
+    height: 20px;
+    background-color:beige;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.shishka2 {
+    width: 50px;
+    height: 20px;
+    background-color:beige;
+    display: none;
+    transition: 1s;
+    
+}
+
+.x {
+    border: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+    transition: 1s;
+    font-size: 30px;
+
+}
+
+
+
+.x2 {
+    border: none;
+    display: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+    transition: 1s;
+}
+.active {
+    top: 100px;
+}
+.s {
+    display: none;
+}
+.s2{
+    width: 100%;
+    display: flex;
+    transition: 2s;
+    opacity: 1;
+}
+main {
+    margin-bottom: 1000px;
+}
+
+.footer {
+    width: 100%;
+    opacity: 0;
+    transition: 2s;
+}
+.box {
+    width: 100%;
+}
+
+.container {
+    margin-top: 50px;
+}
